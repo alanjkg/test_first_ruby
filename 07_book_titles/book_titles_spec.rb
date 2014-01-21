@@ -14,10 +14,10 @@ describe Book do
       @book.title = "inferno"
       @book.title.should == "Inferno"
       # Another way of saying these two lines is after we set the title of the book, when we get its title
-      # it should be capitalized properly. 
+      # it should be capitalized properly.
       # We set the title of the book with @book.title = "inferno"
       # and we get the title of the book wtih @book.title
-      # 
+      #
       # To be able to do @book.title = "inferno",
       # when we define the method title it has to look like this:
       #
