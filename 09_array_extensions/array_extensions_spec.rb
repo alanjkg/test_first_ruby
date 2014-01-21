@@ -7,8 +7,8 @@ describe Array do
     #   [].should respond_to(:sum)
     #   Array.should respond_to(:sum)
       # [] and Array are synonymous
-      # 
-      # Whoa! Hold on! We're expected to add a method 
+      #
+      # Whoa! Hold on! We're expected to add a method
       # to a class that already exists inside of Ruby?
       # Well, yes. And the way you can do that is quite easy:
       #
